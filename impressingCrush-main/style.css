@@ -99,21 +99,4 @@ p {
   z-index: 0; /* Ensure it's the last layer */
 }
 
-.video-layer video {
-  width: 90%;
-  height: 90%;
-  border-radius: 8px;
-}
 
-
-/* Background Video */
-.background-video {
-  display: none; /* Hidden by default */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: 9999; /* Ensure it's above everything */
-}
